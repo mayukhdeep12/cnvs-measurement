@@ -11,13 +11,12 @@ import imutils
 
 app = Flask(__name__)
 
-def midpoint(ptA, ptB):
-    return ((ptA[0] + ptB[0]) * 0.5, (ptA[1] + ptB[1]) * 0.5)
-
-camera = cv2.VideoCapture(0)  
+#def midpoint(ptA, ptB):
+    #return ((ptA[0] + ptB[0]) * 0.5, (ptA[1] + ptB[1]) * 0.5)
 
 
-def gen_frames():  
+def gen_frames(): 
+    camera = cv2.VideoCapture(0)  
     while True:
         success, frame = camera.read()  
         if not success:
