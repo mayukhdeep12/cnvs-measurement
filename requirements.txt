@@ -1,6 +1,6 @@
 Flask==2.2.2
 imutils==0.5.4
 numpy==1.23.4
-opencv_python==4.6.0.66
+opencv-python
 scipy==1.9.3
 opencv-contrib-python
